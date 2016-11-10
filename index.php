@@ -19,10 +19,10 @@
         echo '- Daniel Geensen';
 
         //MAIL TO $name's email:
-        mail($email, "Successfully entered your application!", "Hi $name, you successfully send your application!", "From: Daniel.geensen1@gmail.com");
+        mail($email, "Successfully entered your application!", "Hi $name, you successfully send your application!", "From: <your-email>@gmai.com");
 
         //MAIL
-        //.. mail("Daniel.geensen1@gmail.com", "New staff application!", "Name: $name" + "Username: $username" + "Email: $email", "From: Daniel.geensen1@gmail.com");
+        //.. mail("<your-email>@gmai.com", "New staff application!", "Name: $name" + "Username: $username" + "Email: $email", "From: <your-email>@gmai.com");
     }else{
 
      ?>
