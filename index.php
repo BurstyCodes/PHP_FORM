@@ -16,7 +16,7 @@
 
         //MESSAGE ON THE SITE:
         echo 'I have send you an email, if you did not receive this email you need to contact me!';
-        echo '- Daniel Geensen';
+        echo '- Bursty';
 
         //MAIL TO $name's email:
         mail($email, "Successfully entered your application!", "Hi $name, you successfully send your application!", "From: <your-email>@gmai.com");
